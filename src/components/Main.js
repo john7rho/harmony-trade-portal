@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import ParticlesBg from 'particles-bg';
 
 class Main extends Component {
 
   render() {
     return (
       <div id="content" class="content">
+        <ParticlesBg type="circle" bg={true}/>
         <h2>Add Product</h2>
         <form onSubmit={(event) => {
           event.preventDefault()
@@ -34,7 +36,7 @@ class Main extends Component {
         </form>
         <p>&nbsp;</p>
         <h2>Buy Product</h2>
-        <table className="table">
+        <table className="table" border="4">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -71,6 +73,7 @@ class Main extends Component {
             })}
           </tbody>
         </table>
+        Inspired by DApp University.
       </div>
     );
   }
