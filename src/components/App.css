@@ -1,1 +1,72 @@
 /* Styles go here */
+.center{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.contbackground{
+    /*background-image: url("../red-particles.gif");*/
+}
+.content{
+    background-color: white;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+h1 {
+  
+    font-family: 'Kanit', sans-serif;;
+    -webkit-text-stroke: 5.5px black;
+    font-size: 8rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    line-height: 6rem;
+    letter-spacing: .2rem;
+    margin-bottom: 2vh;
+    margin-top: 3vh;
+  }
+  .headert {
+    color: #2600fe;
+    height: fit-content;
+  }
+  .headerf {
+    color: #c8158c;
+  }
+  
+  h1,
+  h3 {
+    text-align: center;
+    margin-top: 4vh;
+
+  }
+  
+    h3 span {
+    color: #FD0123;
+  }
+  
+  
+  .headerText {
+    margin-top: 4vh;
+    position: relative;
+    display: block;
+    position: sticky;
+    /* absolule positioning bugs without the border? */
+    border: 1px solid transparent;
+  }
+  
+  header h3 {
+    max-width: 675px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }

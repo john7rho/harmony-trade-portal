@@ -1,16 +1,26 @@
 import React, { Component } from 'react';
 import Web3 from 'web3'
-import logo from '../logo.png';
+//import logo from '../logo.png';
 import './App.css';
 import Marketplace from '../abis/Marketplace.json'
 import Navbar from './Navbar'
 import Main from './Main'
+import Uppercontent from './uppercontent'
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
+
 
 class App extends Component {
 
   async componentWillMount() {
     await this.loadWeb3()
     await this.loadBlockchainData()
+    AOS.init({
+      // initialise with other settings
+      duration : 2000
+    });
+  
   }
 
   async loadWeb3() {
@@ -82,11 +92,12 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="contbackground" id = "home">
         <Navbar account={this.state.account} />
+        <Uppercontent />
         <div className="container-fluid mt-5">
           <div className="row">
-            <main role="main" className="col-lg-12 d-flex">
+            <main role="main" className="col-lg-12 d-flex center">
               { this.state.loading
                 ? <div id="loader" className="text-center"><p className="text-center">Loading...</p></div>
                 : <Main
@@ -101,5 +112,7 @@ class App extends Component {
     );
   }
 }
+
+document.body.style = 'background-image: url("../izAv5U.gif");';
 
 export default App;
