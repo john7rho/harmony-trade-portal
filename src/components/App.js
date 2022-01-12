@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ParticlesBg from 'particles-bg';
 import Web3 from 'web3'
 //import logo from '../logo.png';
 import './App.css';
@@ -92,7 +93,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="contbackground" id = "home">
+      <div className='bubbles'>
+        <div className="contbackground" id = "home">
         <Navbar account={this.state.account} />
         <Uppercontent />
         <div className="container-fluid mt-5">
@@ -108,6 +110,8 @@ class App extends Component {
             </main>
           </div>
         </div>
+      </div>
+      <ParticlesBg type="circle" bg={true}/>
       </div>
     );
   }
