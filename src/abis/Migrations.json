@@ -78,24 +78,14 @@
   "ast": {
     "absolutePath": "/Users/michaelzhao/Documents/GitHub/harmony-exchange/src/contracts/Migrations.sol",
     "exportedSymbols": {
-      "Migrations": [
-        247
-      ]
+      "Migrations": [247]
     },
     "id": 248,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 192,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.4",
-          ".21",
-          "<",
-          "0.6",
-          ".0"
-        ],
+        "literals": ["solidity", ">=", "0.4", ".21", "<", "0.6", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:32:1"
       },
@@ -106,9 +96,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 247,
-        "linearizedBaseContracts": [
-          247
-        ],
+        "linearizedBaseContracts": [247],
         "name": "Migrations",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -486,9 +474,7 @@
               "src": "403:109:1",
               "statements": [
                 {
-                  "assignments": [
-                    234
-                  ],
+                  "assignments": [234],
                   "declarations": [
                     {
                       "constant": false,
@@ -727,24 +713,14 @@
   "legacyAST": {
     "absolutePath": "/Users/michaelzhao/Documents/GitHub/harmony-exchange/src/contracts/Migrations.sol",
     "exportedSymbols": {
-      "Migrations": [
-        247
-      ]
+      "Migrations": [247]
     },
     "id": 248,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 192,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.4",
-          ".21",
-          "<",
-          "0.6",
-          ".0"
-        ],
+        "literals": ["solidity", ">=", "0.4", ".21", "<", "0.6", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:32:1"
       },
@@ -755,9 +731,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 247,
-        "linearizedBaseContracts": [
-          247
-        ],
+        "linearizedBaseContracts": [247],
         "name": "Migrations",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1135,9 +1109,7 @@
               "src": "403:109:1",
               "statements": [
                 {
-                  "assignments": [
-                    234
-                  ],
+                  "assignments": [234],
                   "declarations": [
                     {
                       "constant": false,

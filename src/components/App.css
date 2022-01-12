@@ -4,9 +4,6 @@
   display: flex;
   justify-content: center;
 }
-.contbackground {
-  /*background-image: url("../red-particles.gif");*/
-}
 .content {
   background-color: white;
 }

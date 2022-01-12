@@ -1,39 +1,35 @@
-require('babel-register');
-require('babel-polyfill');
-const HDWalletProvider = require('@truffle/hdwallet-provider');
-const privateKeyTest = '<ce2af1b723575eeae6cf4f1902eeebdbb42f2c8bf29583c116bd5ac8304352e2>';
+require("babel-register");
+require("babel-polyfill");
+const HDWalletProvider = require("@truffle/hdwallet-provider");
+const privateKeyTest = "<private key>"; // Add your private key here
 
 module.exports = {
   networks: {
     development: {
       host: "127.0.0.1",
       port: 7545,
-      network_id: "*" // Match any network id
+      network_id: "*",
     },
     testnet: {
       provider: () => {
-        // use private key
         return new HDWalletProvider({
-          //mnemonic,
-          providerOrUrl: 'https://api.s0.b.hmny.io', // https://api.s0.t.hmny.io for mainnet
+          providerOrUrl: "https://api.s0.b.hmny.io",
           privateKeys: [privateKeyTest],
-
-          //derivationPath: `m/44'/1023'/0'/0/`
         });
       },
-      network_id: 1666700000, // 1666600000 for mainnet
-      gas: 20000000,   // <--- Twice as much
+      network_id: 1666700000,
+      gas: 20000000,
       gasPrice: 10000000000,
     },
   },
-  contracts_directory: './src/contracts/',
-  contracts_build_directory: './src/abis/',
+  contracts_directory: "./src/contracts/",
+  contracts_build_directory: "./src/abis/",
   compilers: {
     solc: {
       optimizer: {
         enabled: true,
-        runs: 200
-      }
-    }
-  }
-}
+        runs: 200,
+      },
+    },
+  },
+};

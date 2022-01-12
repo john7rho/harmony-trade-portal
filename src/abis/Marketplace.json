@@ -198,21 +198,14 @@
   "ast": {
     "absolutePath": "/Users/michaelzhao/Documents/GitHub/harmony-exchange/src/contracts/Marketplace.sol",
     "exportedSymbols": {
-      "Marketplace": [
-        190
-      ]
+      "Marketplace": [190]
     },
     "id": 191,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:0"
       },
@@ -223,9 +216,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 190,
-        "linearizedBaseContracts": [
-          190
-        ],
+        "linearizedBaseContracts": [190],
         "name": "Marketplace",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -998,10 +989,7 @@
                       "id": 60,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "778:7:0",
                       "typeDescriptions": {
@@ -1092,10 +1080,7 @@
                       "id": 69,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "853:7:0",
                       "typeDescriptions": {
@@ -1583,9 +1568,7 @@
               "src": "1220:1007:0",
               "statements": [
                 {
-                  "assignments": [
-                    107
-                  ],
+                  "assignments": [107],
                   "declarations": [
                     {
                       "constant": false,
@@ -1661,9 +1644,7 @@
                   "src": "1259:39:0"
                 },
                 {
-                  "assignments": [
-                    113
-                  ],
+                  "assignments": [113],
                   "declarations": [
                     {
                       "constant": false,
@@ -1887,10 +1868,7 @@
                       "id": 117,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "1433:7:0",
                       "typeDescriptions": {
@@ -2008,10 +1986,7 @@
                       "id": 129,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "1563:7:0",
                       "typeDescriptions": {
@@ -2097,10 +2072,7 @@
                       "id": 137,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "1676:7:0",
                       "typeDescriptions": {
@@ -2202,10 +2174,7 @@
                       "id": 143,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "1766:7:0",
                       "typeDescriptions": {
@@ -2812,21 +2781,14 @@
   "legacyAST": {
     "absolutePath": "/Users/michaelzhao/Documents/GitHub/harmony-exchange/src/contracts/Marketplace.sol",
     "exportedSymbols": {
-      "Marketplace": [
-        190
-      ]
+      "Marketplace": [190]
     },
     "id": 191,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:0"
       },
@@ -2837,9 +2799,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 190,
-        "linearizedBaseContracts": [
-          190
-        ],
+        "linearizedBaseContracts": [190],
         "name": "Marketplace",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -3612,10 +3572,7 @@
                       "id": 60,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "778:7:0",
                       "typeDescriptions": {
@@ -3706,10 +3663,7 @@
                       "id": 69,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "853:7:0",
                       "typeDescriptions": {
@@ -4197,9 +4151,7 @@
               "src": "1220:1007:0",
               "statements": [
                 {
-                  "assignments": [
-                    107
-                  ],
+                  "assignments": [107],
                   "declarations": [
                     {
                       "constant": false,
@@ -4275,9 +4227,7 @@
                   "src": "1259:39:0"
                 },
                 {
-                  "assignments": [
-                    113
-                  ],
+                  "assignments": [113],
                   "declarations": [
                     {
                       "constant": false,
@@ -4501,10 +4451,7 @@
                       "id": 117,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "1433:7:0",
                       "typeDescriptions": {
@@ -4622,10 +4569,7 @@
                       "id": 129,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "1563:7:0",
                       "typeDescriptions": {
@@ -4711,10 +4655,7 @@
                       "id": 137,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "1676:7:0",
                       "typeDescriptions": {
@@ -4816,10 +4757,7 @@
                       "id": 143,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        265,
-                        266
-                      ],
+                      "overloadedDeclarations": [265, 266],
                       "referencedDeclaration": 265,
                       "src": "1766:7:0",
                       "typeDescriptions": {

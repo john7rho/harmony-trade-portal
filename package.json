@@ -2,6 +2,7 @@
   "name": "harmony-trade-portal",
   "version": "1.0.0",
   "description": "Harmony Trade Portal",
+  "contributors": ["John Rho", "Michael Zhao", "Matt Tengtrakool", "Dhrub Singh"],
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.4.2",
     "aos": "^2.3.4",

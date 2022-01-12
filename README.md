@@ -1,12 +1,15 @@
-This is the tutorial from [DApp Univeristy](https://www.dappuniversity.com/) which is configured to work on harmony blockchain.
+Submitted to the TAIKAI web3 University Hackathon.
+Team: John Rho, Michael Zhao, Matt Tengtrakool, Dhrub Singh
+
+Special thanks to [DApp Univeristy](https://www.dappuniversity.com/) for providing the educational resources needed to start this DApp.
+
+This project is validated to run with Node v10.16.3.
 
 Steps
-* Fund your public key with test ONE tokens ([faucet](https://faucet.pops.one/))   
-![gif for funding](test-net-funding.gif)
-* Update truffle-config.js, replace <private key> with your private key 
-* `npm install`
-* `truffle compile`
-* `truffle migrate --reset --network testnet`
-* `npm start` which should popup http://localhost:3000/ page
-* make sure to connect metamask to harmony testnet, as the marketplace contracts are deployed on harmony testnet ([instructions](https://davincigalleryone.gitbook.io/davinci-gallery/connect-to-a-wallet))
 
+- Fund your public key with test ONE tokens from ([faucet](https://faucet.pops.one/))
+- Replace <private key> in truffle-config.js with your private key.
+- `npm install`
+- `truffle compile`
+- `truffle migrate --reset --network testnet`
+- `npm start`
