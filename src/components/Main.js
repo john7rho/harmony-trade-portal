@@ -45,10 +45,10 @@ class Main extends Component {
             </tr>
           </thead>
           <tbody id="productList">
-            { this.props.products.map((product, key) => {
+            { this.props.products.slice(3).map((product, key) => {
               return(
                 <tr key={key}>
-                  <th scope="row">{product.id.toString()}</th>
+                  <th scope="row">{(product.id -3).toString()}</th>
                   <td>{product.name}</td>
                   <td>{window.web3.utils.fromWei(product.price.toString(), 'Ether')} ONE</td>
                   <td>{product.owner}</td>
@@ -63,7 +63,7 @@ class Main extends Component {
                         >
                           Buy
                         </button>
-                      : null
+                      : 'No longer available.'
                     }
                     </td>
                 </tr>

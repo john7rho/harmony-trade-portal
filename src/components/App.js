@@ -101,7 +101,15 @@ class App extends Component {
           <div className="row">
             <main role="main" className="col-lg-12 d-flex center">
               { this.state.loading
-                ? <div id="loader" className="text-center"><p className="text-center">Loading...</p></div>
+                ? <div id="loader" className="text-center">
+                    <div class="loader-container">
+                      <div class="loader">
+                        <div class="square one"></div>
+                        <div class="square two"></div>
+                      </div>
+                    
+              </div><h2>Loading...</h2></div>
+
                 : <Main
                   products={this.state.products}
                   createProduct={this.createProduct}
