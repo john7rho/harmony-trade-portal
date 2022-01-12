@@ -63,7 +63,7 @@ class Main extends Component {
                         >
                           Buy
                         </button>
-                      : null
+                      : 'No longer available.'
                     }
                     </td>
                 </tr>
