@@ -70,3 +70,122 @@ h1 {
     margin-left: auto; 
     margin-right: auto; 
   }
+  .loader-container {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(0, 0, 0, .1); */
+  }
+  
+  .loader-container .loader {
+    height: 7rem;
+    width: 7rem;
+    position: relative;
+  }
+  .loader-container .loader .square {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    background: #fe46a9;
+  }
+  .loader-container .loader .one {
+    top: 0;
+    left: 0;
+    animation: animate_one 5s infinite ease;
+    background: #fe46a9;
+  }
+  .loader-container .loader .two {
+    top: 50%;
+    left: 50%;
+    animation: animate_two 5s infinite ease;
+    background: #47b4ff;
+  }
+  
+  @keyframes animate_one {
+    0%,
+    100% {
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 50%;
+    }
+    12.5% {
+      left: 0;
+      width: 100%;
+    }
+    25% {
+      top: 0;
+      left: 50%;
+      width: 50%;
+      height: 50%;
+    }
+    37.5% {
+      top: 0;
+      height: 100%;
+    }
+    50% {
+      top: 50%;
+      left: 50%;
+      width: 50%;
+      height: 50%;
+    }
+    62.5% {
+      left: 0;
+      width: 100%;
+    }
+    75% {
+      top: 50%;
+      width: 50%;
+      height: 50%;
+    }
+    87.5% {
+      top: 0;
+      left: 0;
+      height: 100%;
+    }
+  }
+  
+  @keyframes animate_two {
+    0%,
+    100% {
+      top: 50%;
+      left: 50%;
+      width: 50%;
+      height: 50%;
+    }
+    12.5% {
+      left: 0;
+      width: 100%;
+    }
+    25% {
+      top: 50%;
+      width: 50%;
+      height: 50%;
+    }
+    37.5% {
+      top: 0;
+      height: 100%;
+    }
+    50% {
+      left: 0;
+      width: 50%;
+      height: 50%;
+    }
+    62.5% {
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    75% {
+      left: 50%;
+      width: 50%;
+      height: 50%;
+    }
+    87.5% {
+      top: 0;
+      height: 100%;
+    }
+  }
+  
